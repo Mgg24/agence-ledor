@@ -45,6 +45,11 @@ em{
     padding-bottom: 3rem;
 }
 
+.bg-dark{
+background: #333;
+    color: white;
+}
+
 /* class */
 
 .container{
@@ -170,6 +175,7 @@ header ul li a:hover {
 
 }
 
+
 /*testimonials*/
 
 .testimonials{
@@ -209,3 +215,35 @@ header ul li a:hover {
     border-radius: 50px;
     margin-bottom: 0.5rem;
 }
+/* who */
+.who{
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.who-content-img{
+    flex: 1;
+}
+
+.who-content-img img {
+    width: 100%;
+}
+.who-content-text{
+    flex: 1;
+    padding: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: #333;
+
+}
+
+.who-content-text h2{
+    margin-bottom: 2rem;
+}
+
+.who-content-text p{
+    font-size: 1.3rem;
+    line-height: 1.8rem;
+}
+
