@@ -1,0 +1,22 @@
+/* vp + header */
+header{
+    flex-direction: column;
+}
+header ul{
+    flex-direction: column;
+    text-align: center;
+}
+header ul li {
+    margin-top: 1.5rem;
+    padding: 0.5rem;
+    border-bottom: 1px dotted #ddd;
+}
+.vp-content h1{
+    font-size: 2rem;
+
+}
+.vp-content p{
+    font-size: 1.5rem;
+    font-weight: 300;
+    line-height: 2rem;
+}
