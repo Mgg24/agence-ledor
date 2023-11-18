@@ -220,10 +220,12 @@ header ul li a:hover {
 .who{
     display: flex;
     flex-flow: row nowrap;
+    min-height: 600px;
 }
 
 .who-content-img{
     flex: 1;
+    background: url("../images/team.jpg") center center/cover;
 }
 
 .who-content-img img {
